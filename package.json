@@ -1,0 +1,8 @@
+{
+	"homepage": "https://taniarascia.github.io/react-tutorial"
+}
+"scripts": {
+  // ...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
